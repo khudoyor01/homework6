@@ -1,0 +1,370 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #c3f8fe;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px;
+}
+
+.container .box {
+  width: 700px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .box .box__left {
+  position: relative;
+  background: url(/img/background.jpg) rgba(0, 0, 0, 0.9);
+  height: 500px;
+  width: 350px;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container .box .box__left .box__name {
+  position: absolute;
+  -webkit-transform: translateY(220%);
+          transform: translateY(220%);
+  left: 20%;
+}
+
+.container .box .box__left .box__name h1 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.container .box .box__left .box__name p {
+  color: #fff;
+  font-weight: 200;
+}
+
+.container .box .box__left .box__name span {
+  position: absolute;
+  -webkit-transform: translateY(60%);
+          transform: translateY(60%);
+  background-color: #6aa394;
+  background-color: rgba(79, 238, 177, 0.8);
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .box .box__left .box__name span img {
+  padding: 5px;
+  font-size: 15px;
+}
+
+.container .box .box__left .box__name span a {
+  padding: 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.container .box .box__right {
+  background-color: #fff;
+  padding: 15px;
+}
+
+.container .box .box__right .box__articles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .box .box__right .box__year {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 15px;
+  margin: 15px;
+  font-size: 22px;
+  font-weight: 800;
+  -webkit-transition: all 1.2s ease;
+  transition: all 1.2s ease;
+}
+
+.container .box .box__right .box__year a {
+  color: #c0b2a6;
+  text-decoration: none;
+}
+
+.container .box .box__right .box__year a:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.container .box .box__right .box__year #active {
+  color: #000;
+}
+
+.container .box .box__right .box__menu {
+  margin-top: 35px;
+}
+
+.container .box .box__right .box__menu .box__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px;
+}
+
+.container .box .box__right .box__menu .box__card img {
+  border-radius: 50%;
+  width: 30px;
+}
+
+.container .box .box__right .box__menu .box__card p {
+  font-size: 15px;
+}
+
+.container .box .box__right .box__menu .box__date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .box .box__right .box__menu .box__date h1 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.container .box .box__right .box__menu .box__date ul {
+  padding-left: 5px;
+}
+
+.container .box .box__right .box__menu .box__date ul li {
+  font-size: 15px;
+  list-style: none;
+  font-weight: bold;
+}
+
+.container .box .box__right .box__menu .box__card2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px;
+}
+
+.container .box .box__right .box__menu .box__card2 img {
+  border-radius: 50%;
+  width: 30px;
+}
+
+.container .box .box__right .box__menu .box__card2 p {
+  padding-left: 27px;
+  font-size: 15px;
+}
+
+.container .box .box__right .box__menu .box__date2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .box .box__right .box__menu .box__date2 h1 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.container .box .box__right .box__menu .box__date2 ul {
+  padding-left: 5px;
+}
+
+.container .box .box__right .box__menu .box__date2 ul li {
+  font-size: 15px;
+  list-style: none;
+  font-weight: bold;
+  list-style: none;
+}
+
+.container .box .box__right .box__menu .box__card3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px;
+}
+
+.container .box .box__right .box__menu .box__card3 img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.container .box .box__right .box__menu .box__card3 p {
+  padding-left: 27px;
+  font-size: 15px;
+}
+
+.container .box .box__right .box__menu .box__date3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .box .box__right .box__menu .box__date3 h1 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.container .box .box__right .box__menu .box__date3 ul {
+  padding-left: 5px;
+}
+
+.container .box .box__right .box__menu .box__date3 ul li {
+  font-size: 15px;
+  list-style: none;
+  font-weight: bold;
+  list-style: none;
+}
+
+.container .box .box__right .box__menu .box__card4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px;
+}
+
+.container .box .box__right .box__menu .box__card4 img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.container .box .box__right .box__menu .box__card4 p {
+  font-size: 15px;
+}
+
+.container .box .box__right .box__menu .box__date4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .box .box__right .box__menu .box__date4 h1 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.container .box .box__right .box__menu .box__date4 ul {
+  padding-left: 5px;
+}
+
+.container .box .box__right .box__menu .box__date4 ul li {
+  font-size: 15px;
+  list-style: none;
+  font-weight: bold;
+}
+
+.container .box .box__right .box__menu .box__card5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px;
+}
+
+.container .box .box__right .box__menu .box__card5 img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.container .box .box__right .box__menu .box__card5 p {
+  padding-left: 27px;
+  font-size: 15px;
+}
+
+.container .box .box__right .box__menu .box__date5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .box .box__right .box__menu .box__date5 h1 {
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.container .box .box__right .box__menu .box__date5 ul {
+  padding-left: 5px;
+}
+
+.container .box .box__right .box__menu .box__date5 ul li {
+  font-size: 15px;
+  font-weight: bold;
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */
